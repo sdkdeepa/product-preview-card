@@ -28,13 +28,18 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Desktop View](screenshots/DesktopView.png)
 
+<hr />
+
+![Mobile View](screenshots/MobileView.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here]()
-- Live Site URL: [Add live site URL here](https://sdkdeepa.github.io/product-preview-card)
+
+* https://github.com/sdkdeepa/product-preview-card
+<br />
+* [Live Site URL](https://sdkdeepa.github.io/product-preview-card)
 
 ## My process
 
@@ -45,28 +50,24 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I learnt how to use `<figure>`,`<picture>`, `<source>` and `<del>`
+```HTML
+    <figure>
+      <picture>
+        <source srcset="images/image-product-desktop.jpg" media="(min-width: 1024px)">
+        <img src="images/image-product-mobile.jpg" alt="perfume product details">
+      </picture>
+    </figure>
+<!-- You don't need to use css to strike through the text -->
+    <del>$169.99</del>
 
-To see how you can add code snippets, see below:
-
-
-### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-
+```
 
 ### Useful resources
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
+- [Webdev](https://www.webdev.dev) - This material really helped me in building responsive app and made my job easier on scaling the image.
 
 ## Author
 
