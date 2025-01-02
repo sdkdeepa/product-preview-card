@@ -39,6 +39,7 @@ Users should be able to:
 
 * https://github.com/sdkdeepa/product-preview-card
 <br />
+
 * [Live Site URL](https://sdkdeepa.github.io/product-preview-card)
 
 ## My process
